@@ -10,3 +10,32 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: invite-resturant
 Tags: resturants, mobile first, responsive, pizza
 */
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+.clear,
+.clear::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
